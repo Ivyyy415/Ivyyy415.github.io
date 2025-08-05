@@ -1,6 +1,5 @@
 # Ivyyy415.github.io
-
-# 重新生成网页内容
+#时念&黎安
 html_content = """
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -74,7 +73,6 @@ html_content = """
 </html>
 """
 
-# 保存为HTML文件
 file_path = "/mnt/data/糖罐子_minipage_网页代码.html"
 with open(file_path, "w", encoding="utf-8") as f:
     f.write(html_content)
